@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PreparationMobile.Views.RegistrationPage">
+    <StackLayout>
+        <Entry x:Name="Name" Placeholder="Name" PlaceholderColor="LightGray"/>
+        <Entry x:Name="Surname" Placeholder="Surname" PlaceholderColor="LightGray"/>
+        <Entry x:Name="LoginEn" Placeholder="Login" PlaceholderColor="LightGray"/>
+        <Entry x:Name="PassEn" Placeholder="Password" PlaceholderColor="LightGray"/>
+        <Button x:Name="LogUpBtn" Text="LogUp" HorizontalOptions="Center" WidthRequest="120" Clicked="LogUpBtn_Clicked"/>
+    </StackLayout>
+</ContentPage>
